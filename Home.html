@@ -19,11 +19,15 @@
             color:white;
         }
         div.main{
-           background-image: url("images/Broccoli-Benefits-840-01.webp"); 
+           
            height: 500px;
-           background-repeat: repeat;
+        
     background-size: cover;
         
+        background: linear-gradient(rgba(29, 113, 54, 0.8),rgba(236, 69, 0, 0.8)),
+        url("images/Broccoli-Benefits-840-01.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
         }
         
         div.box{
@@ -36,27 +40,41 @@
             border-radius: 16px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             bottom: -70px;
-        }
-        div.row1{
-            display:inline-flexbox;
-            background-color: orangered;
-            background-size: cover;
-        float: left;
-        color: white;
         
         }
         div.row{
-            display: inline-flex;
-           /* flex-direction: row;
-            justify-content: space-evenly;*/
+            display:flex;
+            flex-direction: row;
+            align-items: stretch;
+        height: 380px;
+        background-image: url("images/Justicia-carnea-3.jpg");
+        background-repeat: no-repeat;
+            background-size: cover;
+        
+        }
+        div.row1{
+color: white;
+background-color: orangered;
+width: 50%;
+        height: 380px;
+        text-align: center;
+        font-size: 20px;
         
         }
         div.image{
             
-            display: inline-flex;
-        float: right;
-m
+            background-image: url("images/Justicia-carnea-3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 50%;
+        
 
+        }
+        div.footer{
+            text-align: center;
+            background-color: rgb(221, 220, 220);
+            display:inline-flex flex;
+            
         }
     </style>
     </head>
@@ -73,7 +91,7 @@ m
                     <li><a class="active"href="#HOME"><strong>HOME</strong></a></li>
                     <li><a href="About us.html">ABOUT US</a></li>
                     <li><a href="product.html">OUR PRODUCTS</a></li>
-                    <li>CONTACT US</li>
+                    <li><a href="contact-us.html">CONTACT US</a></li>
                 </ul>
             </nav>
         <div class="main">
@@ -92,17 +110,18 @@ m
             <div class="row1">
                 <h3>My health my wealth</h3>
               <h5>  we sell different kinds of leave.<br>we ofer free recipe to customers<br>
-                and also ofer delivery at cheap subsidized rate.</h5>
+                and also ofer delivery at  subsidized rate.</h5>
                 <button style="position: relative;left:15%;background-color:
                  green;border-radius: 15px;color: white;"><a href="About us.html">Read more</a></button>
             </div>
             <div class="image">
-                <img src="images/Justicia-carnea-3.jpg">
+                
         
             </div>
         </div>
         <div class="footer">
-
+<p>All right reserved</p><br><br>
+<p>copy right 2018</p>
         </div>
     </body>
     </html>

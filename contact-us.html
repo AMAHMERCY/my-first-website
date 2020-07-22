@@ -8,41 +8,54 @@
     initial-scale=1.0">
     <title>My health my wealth</title>
     <style>
-        h3{
-            text-align: center;
-        }
-        form{
-            display: block;
-            text-align: center;
-            padding-left: 8px;
-        }
         body{
-            background-position: center;
-        background-size: contain;
-        border:2px solid black ;
-        width: fit-content;
-        position: relative;
-        left:30%;
-        
+            background-image: url("images/Justicia-carnea-3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        li{
+            display: inline-flex;
+            margin-left: 50px;
+            position: relative;
+            left: 100%;
+        }
+        a:hover{
+            color: white;
         }
         div{
-            background-color: darkgreen;
-            color: white;
-            margin-top: 30px;
+            border-radius: 15px;
+            
+            margin-top: 50px;
+            text-align: center;
+        background-size: contain;
+        font-size: 20px;
         }
     </style>
-    </head>
-    <body>
-        <div>
-<h3>Get in touch with us !</h3>
-<h3>Mobile number:08169533229,07013663780.</h3>
-<h3>Email:mercyojiiamah@gmail.com</h3>
-<form>
-    Name:<input type="text" name="username"required. style="padding-right: 2PX;"><br><br>
-    Mobile number:<input type="number" name="Mobile number"required><br><br>
-Drop your message here<textarea name="comment"required></textarea><br><br>
-<button>Submit</button>
-</div>
-</form>
+</head>
+<body>
+    <nav style="display: inline-flex;background-color:
+    green;width: 100%;color: white;height: 60px;">
+       <ul>
+           
+           <li><a class="active"href="Home.html"><strong>HOME</strong></a></li>
+           <li><a href="About us.html">ABOUT US</a></li>
+           <li><a href="product.html">OUR PRODUCTS</a></li>
+           <li><a href="contact-us.html">CONTACT US</a></li>
+       </ul>
+   </nav>
+    <div>
+        <h3>
+            Get in touch  with us!
+        </h3>
+        <h3>Mobile number:08169533229 or 07013663780</h3>
+        <h3>Email:mercyojiiamah@gmail.com</h3>
+        <h2>Send us a message</h2>
+        <form>
+            <strong>Name:</strong><input type="text" value=""required><br><br>
+            <strong>Mobile number:</strong><input type="number" value="number"required><br><br>
+            <strong>Drop your message</strong><textarea type="comment" required></textarea><br><br>
+            <button style="text-align: center;">Send now</button>
+        </form>
+    </div>
     </body>
     </html>
